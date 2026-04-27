@@ -1,0 +1,89 @@
+    1  ls
+    2  pwd
+    3  cd /hpme
+    4  cd /home
+    5  pwd
+    6  cd /root
+    7  pwd
+    8  mkdir server_lesson
+    9  cd server_lesson
+   10  pwd
+   11  apt update -y && apt install -y git
+   12  git version
+   13  git init 
+   14  touch first.txt
+   15  mkdir -p linux_practice1/public
+   16  ls
+   17  touch linux_practice1/public/index.php
+   18  cp linux_practice1/public/index.php linux_practice1/public/index_bk.php
+   19  cp -r linux_practice1/public linux_practice1/tmp
+   20  rm linux_practice1/tmp/index_bk.php
+   21  ls -R
+   22  touch README.md
+   23  vi README.md
+   24  apt update -y && apt install -y vim
+   25  vi README.md
+   26  cat README.md
+   27  pwd
+   28  mkdir -p linux_practice2/public/css
+   29  mkdir -p linux_practice2/public/js
+   30  mkdir -p linux_practice2/log
+   31  touch linux_pratice2/public/index.php
+   32  touch linux_practice2/public/index.php
+   33  touch linux_practice2/public/css/style.css
+   34  touch linux_practice2/public/js/app.js
+   35  cp linux_practice2/public/index.php
+   36  mv linux_practice2/public/js/app.js
+   37  rm linux_practice2/public/index.php
+   38  ls -R linux_practice2
+   39  touch linux_practice2/public/index.php
+   40  cp linux_practice2/public?index.php
+   41  mv linux_practice2?piblic/js/app.js
+   42  rm linux_practice2/public/index.php
+   43  ls -R linux_practice2
+   44  cp linux_practice2/public/index.php linux_practice2/log/index_log.php
+   45  touch linux_practice2/public/index.php
+   46  cp linux_practice2/public/index.php linux_practice2/log/index_log.php
+   47  mv linux_practice2/public/js/app.js linux_practice2/public/js/main.js
+   48  rm linux_practice2/public/index.php
+   49  ls -R linux_practice2
+   50  pwd
+   51  mkdir -p linux_practice2/documents
+   52  touch linux_practice2/documents/gizumo{01..50}.md
+   53  mkdir linux_practice2/trash
+   54  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash/
+   55  touch linux_practice2/.gitignore
+   56  vi linux_practice2/.gitignore
+   57  cat linux_practice2/.gitignore
+   58  git add .
+   59  git commit -m "first commit"
+   60  git remote add origin https://github.com/itsuki0829/server_lesson.git
+   61  git branch -M main
+   62  git push -u origin main
+   63  git config --global user.name "itsuki0829"
+   64  git config --global user.email "itsui0829@gmail.com"
+   65  git add .
+   66  git commit -m "first commit"
+   67  git push -u origin main
+   68  git config --global user.name "itsuki0829"
+   69  git config --global user.email "itsuki0829@gmail.com"
+   70  git push -u origin main
+   71  git push -u origin main
+   72  docker compose version
+   73  exit 
+   74  cd /root/server_lesson/
+   75  pwd
+   76  cat > linux_practice2/.gitignore <<'EOF'
+trash/gizumo20.md
+trash/gizumo21.md
+trash/gizumo22.md
+trash/gizumo23.md
+trash/gizumo24.md
+trash/gizumo25.md
+trash/gizumo26.md
+trash/gizumo27.md
+trash/gizumo28.md
+trash/gizumo29.md
+EOF
+
+   77  history 300 > linux_practice2/exec_command.log
