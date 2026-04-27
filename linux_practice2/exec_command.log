@@ -74,16 +74,68 @@
    74  cd /root/server_lesson/
    75  pwd
    76  cat > linux_practice2/.gitignore <<'EOF'
-trash/gizumo20.md
-trash/gizumo21.md
-trash/gizumo22.md
-trash/gizumo23.md
-trash/gizumo24.md
-trash/gizumo25.md
-trash/gizumo26.md
-trash/gizumo27.md
-trash/gizumo28.md
-trash/gizumo29.md
-EOF
-
-   77  history 300 > linux_practice2/exec_command.log
+   77  trash/gizumo20.md
+   78  trash/gizumo21.md
+   79  trash/gizumo22.md
+   80  trash/gizumo23.md
+   81  trash/gizumo24.md
+   82  trash/gizumo25.md
+   83  trash/gizumo26.md
+   84  trash/gizumo27.md
+   85  trash/gizumo28.md
+   86  trash/gizumo29.md
+   87  EOF
+   88  history 300 > linux_practice2/exec_command.log
+   89  cat linux_practice2/.gitignore
+   90  ls linux_practice2
+   91  git stastus
+   92  git status
+   93  rm -rf linux_practice2/log
+   94  git status
+   95  ls
+   96  ls linux_practice2
+   97  ls -a linux_practice2
+   98  ls linux_practice2/trash
+   99  ls linux_practice2/documents
+  100  git add .
+  101  git status
+  102  #git commit -m "linux_practicestatus
+  103  #git push origin main
+  104  #git commit -m "linux_practice 
+  105  #git commit -m "linux_practice
+  106  git commit -m "レビュー指摘の修正（linux_practice2）"
+  107  git push origin main
+  108  git push origin main
+  109  git status
+  110  ls
+  111  create mode 100644 linux_practice2/exec_command.log
+  112  ls linux_practice2
+  113  cat linux_practice2/exec_command.log
+  114  mv linux_practice2 linux_practice2_backup
+  115  rm -rf linux_practice2
+  116  ls
+  117  mkdir -p linux_practice2/documents linux_practice2/trash
+  118  touch linux_practice2/documents/gizumo{01..50}.md
+  119  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash/
+  120  for i in {20..29}; do echo "trash/gizumo${i}.md"; done > linux_practice2/.gitignore
+  121  history 300 > linux_practice2/exec_command.log
+  122  ls -a linux_practice2
+  123  pwd
+  124  ls
+  125  ls -a linux_practice2
+  126  ls linux_practice2/trash
+  127  cat linux_practice2/.gitignore
+  128  cat linux_practice2/exec_command.log
+  129  nano review.md
+  130  exit
+  131  cd /root/server_lesson
+  132  ls
+  133  docker exec -it debian bash
+  134  nano linux_practice2/.gitignore
+  135  apt update -y && apt install -y nano
+  136  nano linux_practice2/.gitignore
+  137  nano linux_practice2/.gitignore
+  138  cat linux_practice2/.gitignore
+  139  cat linux_practice2/exec_command.log
+  140  rm -rf linux_practice2_backup
+  141  history 300 > linux_practice2/exec_command.log
